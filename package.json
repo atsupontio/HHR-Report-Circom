@@ -1,0 +1,16 @@
+{
+  "name": "hhr_report_circom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eddsa_poseidon_generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7"
+  }
+}

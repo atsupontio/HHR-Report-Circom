@@ -1,0 +1,4 @@
+node_modules/
+circuit/*
+!circuit/circuit.circom
+!circuit/inputs.json
