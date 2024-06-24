@@ -2,7 +2,7 @@
 
 ## Circomやsnarkjsのダウンロード
 
-必要なツールであるCircomやsnarkjsのダウンロード方法については、[こちらのリポジトリ](https://github.com/vplasencia/zkSudoku/tree/main)を参照してください。
+必要なツールであるCircomやsnarkjsのダウンロード方法については、[こちらのドキュメント](https://docs.circom.io/getting-started/installation/)を参照してください。
 
 ## 使い方
 
@@ -31,7 +31,7 @@ bash setup.sh
 ```
 ### 4. 証明の生成
 
-`generate_proof.sh`スクリプトを実行して証明を生成します。
+`generate_proof.sh`スクリプトを実行してセットアップの続きを行った後、証明を生成します。
 
 ```bash
 bash generate_proof.sh
@@ -43,4 +43,5 @@ bash generate_proof.sh
 ```bash
 bash verify.sh
 ```
-以上の手順で、プロジェクトをセットアップし、実行することができます。
+以上の手順で、trusted set up、証明の生成、照明の検証までの一連の流れを実行することができます。
+circuitフォルダ内にあるpublic.jsonに出力シグナルの値も記載されているので、1のときには20歳以上、0のときには20歳未満であることが分かります。
