@@ -1,3 +1,6 @@
+> [!WARNING]
+> この実装は説明のためであり、実際のプロダクトには使用しないでください。
+
 このプロジェクトでは、[こちらのコード](https://github.com/vplasencia/zkSudoku/tree/main)を参考にして作成された`.sh`ファイルを使用しています。
 
 ## Circomやsnarkjsのダウンロード
